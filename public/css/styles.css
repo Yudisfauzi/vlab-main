@@ -1,0 +1,90 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 4%;
+    background-color: rgba(222, 231, 237, 0.8);
+    /*position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;*/
+}
+.navbar .navbar-logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.navbar .navbar-nav a {
+    color: black;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav a:hover {
+    color: rgb(99, 99, 99);
+}
+
+.navbar .navbar-ekstra {
+    display: none;
+}
+
+/* Media Querry */
+
+/* Laptop */
+@media screen and (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+/*tablet mode */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+    .navbar .navbar-ekstra {
+        display: inline-block;
+    }
+    .navbar .navbar-nav {
+        position: absolute;
+        text-align: center;
+        top: 58px;
+        left: -100%;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(222, 231, 237, 0.8);
+    }
+
+    .navbar .navbar-nav a {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .navbar .navbar-nav.active {
+        left: 0;
+    }
+}
+
+/* Mobilr phone*/
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
