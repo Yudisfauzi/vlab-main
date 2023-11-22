@@ -1,7 +1,7 @@
-:root{
+:root {
     --primary-rgb: 39, 55, 78;
-    --primary: #27374D;
-    --secondary: #526D82;
+    --primary: #27374d;
+    --secondary: #526d82;
     --background: #dee7edcc;
 }
 
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6rem 4%;
+    padding: 10px 7%;
     background-color: var(--background);
     /*position: fixed;
     top: 0;
@@ -26,16 +26,14 @@ body {
     z-index: 999;*/
 }
 .navbar .navbar-logo {
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: var(--primary);
-    text-decoration: none;
+    max-width: 52px;
 }
 .navbar .navbar-nav a {
     color: rgba(var(--primary-rgb), 0.7);
     display: inline-block;
-    font-weight: 600;
-    margin: 0 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 8px;
     text-decoration: none;
     text-transform: uppercase;
     transition: color 0.1s ease;
@@ -49,12 +47,20 @@ body {
     display: none;
 }
 
+.home .home-img {
+    width: 431px;
+    height: 431px;
+    position: relative;
+    left: 50px;
+}
+
 /* Media Querry */
 
 /* Laptop */
+
 @media screen and (max-width: 1366px) {
     html {
-        font-size: 75%;
+        font-size: 80%;
     }
 }
 

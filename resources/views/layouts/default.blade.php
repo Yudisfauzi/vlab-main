@@ -15,8 +15,10 @@
 
 <body>
     @include('layouts.components.navbar')
-    
+
     @yield('content')
+        
+
 
     <!-- feather icons -->
     <script>

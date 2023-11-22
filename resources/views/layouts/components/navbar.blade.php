@@ -1,5 +1,5 @@
 <nav class="navbar">
-    <a href="#" class="navbar-logo">manajemen<span>menengah</span></a>
+    <img class="navbar-logo" src="/img/logo-mamen.png" alt="logo" >
     <div class="navbar-nav">
         <a href="#">beranda</a>
         <a href="#pengumuman">pengumuman</a>

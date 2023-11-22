@@ -1,4 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <h1>Hello World</h1>
+<section class="home">
+    <img class="home-img" src="/img/test.png" alt="">
+</section>
 @endsection
