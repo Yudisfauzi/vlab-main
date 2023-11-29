@@ -47,11 +47,25 @@ body {
     display: none;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+.home .home-text {
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline-block;
+    margin: 102px 0px 0 147px;
+}
+
 .home .home-img {
     width: 431px;
     height: 431px;
-    position: relative;
-    left: 50px;
+    display: inline-block;
+    margin: 20px 50px 0px 0px;
 }
 
 /* Media Querry */
