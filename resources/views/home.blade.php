@@ -25,7 +25,8 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Proses pemilihan materi kursus angkatan 2023 (Semester 1) dan angkatan 2022 (angkatan 2022) wilayah Depok dan Kalimalang</td>
+                                    <td>Proses pemilihan materi kursus angkatan 2023 (Semester 1) dan angkatan 2022
+                                        (angkatan 2022) wilayah Depok dan Kalimalang</td>
                                     <td>4 Oktober - 11 Oktober 2023</td>
                                 </tr>
                                 <tr>
@@ -41,7 +42,9 @@
                                     <td>1 Januari - 13 Januari 2024</td>
                                 </tr>
                                 <tr>
-                                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugiat quam consectetur laboriosam magni repudiandae rerum soluta fugit quos necessitatibus, ut provident odit. Nulla nemo natus, magnam doloremque eaque rem.</td>
+                                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugiat quam
+                                        consectetur laboriosam magni repudiandae rerum soluta fugit quos necessitatibus, ut
+                                        provident odit. Nulla nemo natus, magnam doloremque eaque rem.</td>
                                     <td>11 Desember - 30 Desember 2023</td>
                                 </tr>
                             </tbody>
@@ -86,6 +89,14 @@
                         </table>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="modul" id="modul">
+        <div class="container">
+            <div class="title-head">
+                <h4>modul pembelajaran</h4>
+                <span>laboratorium manajemen menengah</span>
             </div>
         </div>
     </section>
