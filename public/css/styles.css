@@ -10,24 +10,83 @@ html,
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
-.navbar {
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 7%;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-lg-8,
+.col-lg-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--background);
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
     background-color: var(--background);
+    align-items: center;
+    justify-content: space-between;
     /*position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;*/
 }
+
+.navbar>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar .navbar-logo {
     max-width: 52px;
 }
+
 .navbar .navbar-nav a {
     color: rgba(var(--primary-rgb), 0.7);
     display: inline-block;
@@ -68,17 +127,60 @@ body {
     margin: 20px 50px 0px 0px;
 }
 
+.calendar {
+    position: relative;
+    background-color: var(--background);
+    padding: 15rem 0;
+}
+
+.calendar .title-head {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.calendar thead {
+    background-color: var(--primary);
+    color: #fff;
+}
+.calendar tbody {
+    background-color: var(--secondary);
+    color: #fff;
+}
+
 /* Media Querry */
 
 /* Laptop */
+@media screen and (min-width: 1200px) {
 
-@media screen and (max-width: 1366px) {
-    html {
+    /* html {
         font-size: 80%;
+    } */
+    .container {
+        max-width: 1170px;
+    }
+
+    .calendar .title-head h4 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .calendar .title-head span {
+        font-weight: 500;
+        font-size: 1.2em;
+        text-transform: capitalize;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 992px) {
+    .col-lg-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
 }
 
 /*tablet mode */
@@ -86,9 +188,11 @@ body {
     html {
         font-size: 62.5%;
     }
+
     .navbar .navbar-ekstra {
         display: inline-block;
     }
+
     .navbar .navbar-nav {
         position: absolute;
         text-align: center;
