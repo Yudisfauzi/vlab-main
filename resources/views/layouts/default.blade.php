@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="vendor/swiperjs/swiper-bundle.min.css">
+    
     <title>YUDIS</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +24,8 @@
         
 
 
+    <!-- SwiperJS -->
+    <script src="vendor/swiperjs/swiper-bundle.min.js"></script>
     <!-- feather icons -->
     <script>
         feather.replace();
