@@ -94,10 +94,109 @@
     </section>
     <section class="modul" id="modul">
         <div class="container">
-            <div class="title-head">
+            <div class="title-head text-center">
                 <h4>modul pembelajaran</h4>
                 <span>laboratorium manajemen menengah</span>
             </div>
+            <div class="wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card">
+                            <div class="card-header">
+                                <img src="img/modul-1.ppm" alt="gambar-1">
+                            </div>
+                            <div class="card-body">
+                                <h4>Riset Operasional 1</h4>
+                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
+                                    penggunaan
+                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
+                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card-header">
+                                <img src="img/modul-1.ppm" alt="gambar-1">
+                            </div>
+                            <div class="card-body">
+                                <h4>Riset Operasional 1</h4>
+                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
+                                    penggunaan
+                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
+                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card-header">
+                                <img src="img/modul-1.ppm" alt="gambar-1">
+                            </div>
+                            <div class="card-body">
+                                <h4>Riset Operasional 1</h4>
+                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
+                                    penggunaan
+                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
+                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card-header">
+                                <img src="img/modul-1.ppm" alt="gambar-1">
+                            </div>
+                            <div class="card-body">
+                                <h4>Riset Operasional 1</h4>
+                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
+                                    penggunaan
+                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
+                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card-header">
+                                <img src="img/modul-1.ppm" alt="gambar-1">
+                            </div>
+                            <div class="card-body">
+                                <h4>Riset Operasional 1</h4>
+                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
+                                    penggunaan
+                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
+                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
+@endsection
+@section('scripts')
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            grabCursor: true,
+            
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
 @endsection

@@ -2,6 +2,7 @@
     --primary-rgb: 39, 55, 78;
     --primary: #27374d;
     --secondary: #526d82;
+    --tertiary: #9DB2BF;
     --background: #dee7edcc;
 }
 
@@ -13,7 +14,24 @@ body {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-
+.swiper {
+    width: 950px;
+}
+.swiper-button-next, .swiper-button-prev {
+    opacity: 0.7 !important;
+    color: var(--primary) !important;
+    transition: all 0.3s ease;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    opacity: 1 !important;
+    color: var(--primary) !important;
+}
+.swiper-pagination-bullet {
+    height: 7px !important;
+    width: 26px !important;
+    border-radius: 25px !important;
+    background: var(--primary) !important;
+}
 .container {
     width: 100%;
     padding: 0 15px;
@@ -45,12 +63,12 @@ table {
     border-collapse: collapse;
 }
 
-.table > tbody > tr > td,
-.table > tbody > tr > th, 
-.table > tfoot > tr > td, 
-.table > tfoot > tr > th, 
-.table > thead > tr > td, 
-.table > thead > tr > th {
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
     text-align: center;
     padding: 1rem;
     border: 1px solid var(--background);
@@ -127,25 +145,95 @@ table {
     margin: 20px 50px 0px 0px;
 }
 
-.calendar {
+.calendar,
+.modul {
     position: relative;
     background-color: var(--background);
     padding: 15rem 0;
 }
 
-.calendar .title-head {
+.calendar .title-head,
+.modul .title-head {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
 }
+
 .calendar thead {
     background-color: var(--primary);
     color: #fff;
 }
+
 .calendar tbody {
     background-color: var(--secondary);
     color: #fff;
+}
+
+.modul .wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+.modul .title-head h4 {
+    text-transform: uppercase;
+}
+
+.modul .title-head span {
+    max-width: max-content;
+    border-top: 4px solid #000;
+    margin: -1rem auto 0;
+}
+
+.modul .card {
+    max-width: 300px;
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.modul .card-header img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.modul .card-body {
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    margin-top: -2rem;
+    z-index: 2;
+    background-color: var(--secondary);
+    border-radius: 24px 24px 0 0;
+}
+
+.modul .card-body h4 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.modul .card-body p {
+    font-size: .8em;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.modul .card-body a {
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: .7em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background: var(--primary);
+    border-radius: 10px;
 }
 
 /* Media Querry */
@@ -160,11 +248,14 @@ table {
         max-width: 1170px;
     }
 
-    .calendar .title-head h4 {
+    .calendar .title-head h4,
+    .modul .title-head h4 {
         font-size: 1.5em;
         font-weight: 700;
     }
-    .calendar .title-head span {
+
+    .calendar .title-head span,
+    .modul .title-head span {
         font-weight: 500;
         font-size: 1.2em;
         text-transform: capitalize;
