@@ -116,53 +116,41 @@
                         </div>
                         <div class="swiper-slide card">
                             <div class="card-header">
-                                <img src="img/modul-1.ppm" alt="gambar-1">
+                                <img src="img/modul-2.jpg" alt="gambar-1">
                             </div>
                             <div class="card-body">
-                                <h4>Riset Operasional 1</h4>
-                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
-                                    penggunaan
-                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
-                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <h4>E-Commerce</h4>
+                                <p>Electronic commerce atau e-commerce adalah suatu proses terjadinya transaksi jual beli yang dalam prakteknya dilakukan secara online melalui media elektronik.</p>
                                 <a href="#">View More</a>
                             </div>
                         </div>
                         <div class="swiper-slide card">
                             <div class="card-header">
-                                <img src="img/modul-1.ppm" alt="gambar-1">
+                                <img src="img/modul-3.jpeg" alt="gambar-1">
                             </div>
                             <div class="card-body">
-                                <h4>Riset Operasional 1</h4>
-                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
-                                    penggunaan
-                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
-                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <h4>Manajemen Operasional 1</h4>
+                                <p>Manajemen operasional adalah area bisnis yang berfokus pada proses produksi, serta memastikan pemeliharaan dan perkembangan berlangsung secara efektif dan efisien. Seorang manajer operasi bertanggung jawab mengelola proses pengubahan input menjadi output.</p>
                                 <a href="#">View More</a>
                             </div>
                         </div>
                         <div class="swiper-slide card">
                             <div class="card-header">
-                                <img src="img/modul-1.ppm" alt="gambar-1">
+                                <img src="img/modul-4.jpeg" alt="gambar-1">
                             </div>
                             <div class="card-body">
-                                <h4>Riset Operasional 1</h4>
-                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
-                                    penggunaan
-                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
-                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <h4>Manajemen Jasa</h4>
+                                <p>Jasa merupakan kegiatan ekonomi yang menghasilkan produk yang tidak berwujud (intangible) seperti reparasi, akomodasi, transportasi, asuransi, tempat tinggal, pendidikan, hiburan, penginapan, pemerintahan, keuangan, kesehatan dan bidang professional lainnya.</p>
                                 <a href="#">View More</a>
                             </div>
                         </div>
                         <div class="swiper-slide card">
                             <div class="card-header">
-                                <img src="img/modul-1.ppm" alt="gambar-1">
+                                <img src="img/modul-5.jpeg" alt="gambar-1">
                             </div>
                             <div class="card-body">
-                                <h4>Riset Operasional 1</h4>
-                                <p>Riset operasi adalah pendekatan dalam pengambilan keputusan yang ditandai dengan
-                                    penggunaan
-                                    pengetahuan ilmiah melalui usaha kelompok antar disiplin yang bertujuan menentukan
-                                    penggunaan terbaik sumber daya yang terbatas.</p>
+                                <h4>Dasar Manajemen Keuangan</h4>
+                                <p>Manajemen keuangan adalah segala aktivitas yang berhubungan dengan keputusan pengelolaan keuangan dan aset keuangan. Tujuan utama dari manajemen keuangan adalah memperoleh keuntungan yang maksimal melalui sumber daya keuangan yang tersedia.</p>
                                 <a href="#">View More</a>
                             </div>
                         </div>
