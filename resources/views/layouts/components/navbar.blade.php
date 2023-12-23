@@ -9,7 +9,7 @@
             <a href="Profile">profile</a>
         </div>
         <div class="navbar-ekstra">
-            <a href="" id="hamburger-menu"><i data-feather="menu"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
     </div>
 </nav>
